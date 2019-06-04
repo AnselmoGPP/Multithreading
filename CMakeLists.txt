@@ -8,8 +8,9 @@ file(GLOB all_libs
 
 ADD_EXECUTABLE(${PROJECT_NAME}
 	"src/Basics.cpp"
-	"src/Boost_1.cpp"
-	"src/Boost_2.cpp"
+	"src/Boost_threads.hpp"
+#	"src/Boost_1.cpp"
+#	"src/Boost_2.cpp"
 )
 
 TARGET_INCLUDE_DIRECTORIES(${PROJECT_NAME} PUBLIC

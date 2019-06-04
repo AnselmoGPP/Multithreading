@@ -8117,14 +8117,10 @@ iostream
 -
 thread
 -
+Boost_threads.hpp
+/home/hank/dev/multithreading/src/Boost_threads.hpp
 
-/home/hank/dev/multithreading/src/Boost_1.cpp
-iostream
--
-boost/thread/thread.hpp
--
-
-/home/hank/dev/multithreading/src/Boost_2.cpp
+/home/hank/dev/multithreading/src/Boost_threads.hpp
 iostream
 -
 boost/thread/thread.hpp

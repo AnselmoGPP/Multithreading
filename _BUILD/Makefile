@@ -150,60 +150,6 @@ src/Basics.cpp.s:
 	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Basics.cpp.s
 .PHONY : src/Basics.cpp.s
 
-src/Boost_1.o: src/Boost_1.cpp.o
-
-.PHONY : src/Boost_1.o
-
-# target to build an object file
-src/Boost_1.cpp.o:
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o
-.PHONY : src/Boost_1.cpp.o
-
-src/Boost_1.i: src/Boost_1.cpp.i
-
-.PHONY : src/Boost_1.i
-
-# target to preprocess a source file
-src/Boost_1.cpp.i:
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_1.cpp.i
-.PHONY : src/Boost_1.cpp.i
-
-src/Boost_1.s: src/Boost_1.cpp.s
-
-.PHONY : src/Boost_1.s
-
-# target to generate assembly for a file
-src/Boost_1.cpp.s:
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_1.cpp.s
-.PHONY : src/Boost_1.cpp.s
-
-src/Boost_2.o: src/Boost_2.cpp.o
-
-.PHONY : src/Boost_2.o
-
-# target to build an object file
-src/Boost_2.cpp.o:
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o
-.PHONY : src/Boost_2.cpp.o
-
-src/Boost_2.i: src/Boost_2.cpp.i
-
-.PHONY : src/Boost_2.i
-
-# target to preprocess a source file
-src/Boost_2.cpp.i:
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_2.cpp.i
-.PHONY : src/Boost_2.cpp.i
-
-src/Boost_2.s: src/Boost_2.cpp.s
-
-.PHONY : src/Boost_2.s
-
-# target to generate assembly for a file
-src/Boost_2.cpp.s:
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_2.cpp.s
-.PHONY : src/Boost_2.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -216,12 +162,6 @@ help:
 	@echo "... src/Basics.o"
 	@echo "... src/Basics.i"
 	@echo "... src/Basics.s"
-	@echo "... src/Boost_1.o"
-	@echo "... src/Boost_1.i"
-	@echo "... src/Boost_1.s"
-	@echo "... src/Boost_2.o"
-	@echo "... src/Boost_2.i"
-	@echo "... src/Boost_2.s"
 .PHONY : help
 
 

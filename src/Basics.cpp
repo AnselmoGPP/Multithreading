@@ -11,6 +11,7 @@
 //#include "pch.h"
 #include <iostream>
 #include <thread>
+#include "Boost_threads.hpp"
 
 // ------------------------------------
 
@@ -129,11 +130,12 @@ void detach_thread_to_handle_other_docs() {
 
 int main() {
 
-	std::cout << "Multithreading testing" << std::endl;
+    //boostFunction();
+    boostClass obj;
 
-// Basic thread management -----
+// Basic thread management ----------
 	//myClass obj;
-	thread_from_a_function__join();
+    //thread_from_a_function__join();
 	//thread_from_a_function__detach();
 	//thread_from_a_callable_type_object();
 	//thread_from_a_callable_type_declaration();
@@ -142,7 +144,7 @@ int main() {
 	//waiting_but_an_exception_occurs_RAII();
 	//detach_thread_to_handle_other_docs();
 
-// Passing arguments -----
+// Passing arguments ----------
 
 
 }

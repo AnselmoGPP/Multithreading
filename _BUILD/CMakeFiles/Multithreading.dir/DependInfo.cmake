@@ -5,8 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/hank/dev/multithreading/src/Basics.cpp" "/home/hank/dev/multithreading/_BUILD/CMakeFiles/Multithreading.dir/src/Basics.cpp.o"
-  "/home/hank/dev/multithreading/src/Boost_1.cpp" "/home/hank/dev/multithreading/_BUILD/CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o"
-  "/home/hank/dev/multithreading/src/Boost_2.cpp" "/home/hank/dev/multithreading/_BUILD/CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

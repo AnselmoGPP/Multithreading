@@ -81,66 +81,14 @@ CMakeFiles/Multithreading.dir/src/Basics.cpp.o.provides: CMakeFiles/Multithreadi
 CMakeFiles/Multithreading.dir/src/Basics.cpp.o.provides.build: CMakeFiles/Multithreading.dir/src/Basics.cpp.o
 
 
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o: CMakeFiles/Multithreading.dir/flags.make
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o: ../src/Boost_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hank/dev/multithreading/_BUILD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o -c /home/hank/dev/multithreading/src/Boost_1.cpp
-
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multithreading.dir/src/Boost_1.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hank/dev/multithreading/src/Boost_1.cpp > CMakeFiles/Multithreading.dir/src/Boost_1.cpp.i
-
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multithreading.dir/src/Boost_1.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hank/dev/multithreading/src/Boost_1.cpp -o CMakeFiles/Multithreading.dir/src/Boost_1.cpp.s
-
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.requires:
-
-.PHONY : CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.requires
-
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.provides: CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.provides.build
-.PHONY : CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.provides
-
-CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.provides.build: CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o
-
-
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o: CMakeFiles/Multithreading.dir/flags.make
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o: ../src/Boost_2.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/hank/dev/multithreading/_BUILD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o -c /home/hank/dev/multithreading/src/Boost_2.cpp
-
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Multithreading.dir/src/Boost_2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hank/dev/multithreading/src/Boost_2.cpp > CMakeFiles/Multithreading.dir/src/Boost_2.cpp.i
-
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Multithreading.dir/src/Boost_2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hank/dev/multithreading/src/Boost_2.cpp -o CMakeFiles/Multithreading.dir/src/Boost_2.cpp.s
-
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.requires:
-
-.PHONY : CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.requires
-
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.provides: CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.requires
-	$(MAKE) -f CMakeFiles/Multithreading.dir/build.make CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.provides.build
-.PHONY : CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.provides
-
-CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.provides.build: CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o
-
-
 # Object files for target Multithreading
 Multithreading_OBJECTS = \
-"CMakeFiles/Multithreading.dir/src/Basics.cpp.o" \
-"CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o" \
-"CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o"
+"CMakeFiles/Multithreading.dir/src/Basics.cpp.o"
 
 # External object files for target Multithreading
 Multithreading_EXTERNAL_OBJECTS =
 
 Multithreading: CMakeFiles/Multithreading.dir/src/Basics.cpp.o
-Multithreading: CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o
-Multithreading: CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o
 Multithreading: CMakeFiles/Multithreading.dir/build.make
 Multithreading: ../../boost_1_70_0/_BUILD/lib/libboost_atomic.a
 Multithreading: ../../boost_1_70_0/_BUILD/lib/libboost_chrono.a
@@ -181,7 +129,7 @@ Multithreading: ../../boost_1_70_0/_BUILD/lib/libboost_unit_test_framework.a
 Multithreading: ../../boost_1_70_0/_BUILD/lib/libboost_wave.a
 Multithreading: ../../boost_1_70_0/_BUILD/lib/libboost_wserialization.a
 Multithreading: CMakeFiles/Multithreading.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hank/dev/multithreading/_BUILD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Multithreading"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/hank/dev/multithreading/_BUILD/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Multithreading"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Multithreading.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -190,8 +138,6 @@ CMakeFiles/Multithreading.dir/build: Multithreading
 .PHONY : CMakeFiles/Multithreading.dir/build
 
 CMakeFiles/Multithreading.dir/requires: CMakeFiles/Multithreading.dir/src/Basics.cpp.o.requires
-CMakeFiles/Multithreading.dir/requires: CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o.requires
-CMakeFiles/Multithreading.dir/requires: CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o.requires
 
 .PHONY : CMakeFiles/Multithreading.dir/requires
 

@@ -1,7 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Multithreading.dir/src/Basics.cpp.o"
-  "CMakeFiles/Multithreading.dir/src/Boost_1.cpp.o"
-  "CMakeFiles/Multithreading.dir/src/Boost_2.cpp.o"
   "Multithreading.pdb"
   "Multithreading"
 )
