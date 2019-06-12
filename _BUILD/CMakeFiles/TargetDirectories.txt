@@ -1,3 +1,0 @@
-/home/hank/dev/multithreading/_BUILD/CMakeFiles/rebuild_cache.dir
-/home/hank/dev/multithreading/_BUILD/CMakeFiles/Multithreading.dir
-/home/hank/dev/multithreading/_BUILD/CMakeFiles/edit_cache.dir
